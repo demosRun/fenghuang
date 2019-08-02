@@ -180,7 +180,7 @@ var isAndroid = /Android 1|Android 2|Android 3|Android 4|Android 5/.test(navigat
                 composer.addPass(a);
                 composer.addPass(c);
                 composer.addPass(d);
-                this.isMobile || document.addEventListener("mousemove", this.onDocumentMouseMove, !1);
+                // this.isMobile || document.addEventListener("mousemove", this.onDocumentMouseMove, false);
                 window.addEventListener("touchstart", this.cStart, !1);
                 window.addEventListener("touchmove", this.cMove, !1);
                 window.addEventListener("touchend", this.cEnd, !1);
